@@ -140,25 +140,6 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
-.profile-card {
-  border: 1px solid #e7e7e7;
-  border-radius: 12px;
-  padding: 16px;
-  background: #fbfbfb;
-}
-
-.profile-card-title {
-  margin: 0 0 8px 0;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.profile-chip {
-  margin: 10px 0 0 0;
-  padding: 8px 10px;
-  border-radius: 8px;
-  background: #f4f8ff;
-}
 
 .pub-badge {
   display: inline-block;
@@ -173,10 +154,6 @@ span.highlight {
 }
 
 @media (max-width: 700px) {
-  .profile-card {
-    margin-top: 10px;
-  }
-
   .pub-badge {
     min-width: 90px;
     font-size: 12px;
