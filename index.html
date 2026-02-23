@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alex Ayoub | Academic Website</title>
+    <meta
+      name="description"
+      content="Alex Ayoub: PhD candidate in Computing Science at the University of Alberta working on reinforcement learning, reasoning, and recommender systems."
+    />
+    <meta
+      name="keywords"
+      content="Alex Ayoub, reinforcement learning, machine learning, LLM reasoning, recommender systems"
+    />
+    <meta property="og:title" content="Alex Ayoub | Academic Website" />
+    <meta
+      property="og:description"
+      content="Research in reinforcement learning theory, efficient reasoning, and machine learning systems."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/main.js"></script>
+  </head>
+  <body>
+    <div class="bg-shape shape-a" aria-hidden="true"></div>
+    <div class="bg-shape shape-b" aria-hidden="true"></div>
+    <div class="bg-shape shape-c" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="#top">Alex Ayoub</a>
+        <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">PhD Candidate in Computing Science, University of Alberta</p>
+            <h1>
+              Research in reinforcement learning theory, efficient reasoning, and practical machine
+              learning systems.
+            </h1>
+            <p class="lede">
+              I am Alex Ayoub, advised by Csaba Szepesvari and Dale Schuurmans. My work targets
+              sample-efficient decision making and methods that connect foundational RL theory to
+              real-world applications such as large language models and recommender systems.
+            </p>
+            <div class="hero-links">
+              <a class="btn primary" href="#publications">Selected Publications</a>
+              <a class="btn" href="./CV-16.pdf" target="_blank" rel="noopener">Download CV</a>
+            </div>
+            <ul class="link-list">
+              <li><a href="https://github.com/aa14k" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="mailto:aayoub@ualberta.ca">Email</a></li>
+              <li><a href="#contact">Collaboration</a></li>
+            </ul>
+          </div>
+          <aside class="hero-card reveal" aria-label="Profile summary">
+            <h2>Current Snapshot</h2>
+            <ul>
+              <li>Student Researcher, Google DeepMind Frontier AI Unit (Aug 2025-Present)</li>
+              <li>PhD in Computing Science, University of Alberta (Expected May 2026)</li>
+              <li>Inaugural Netflix Graduate Research Fellowship recipient</li>
+            </ul>
+            <p class="hero-note">
+              Current focus: reinforcement learning for reasoning and robust decision-making under
+              function approximation.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="reveal">
+            <h2>About</h2>
+            <p>
+              My research combines statistical learning theory and reinforcement learning to build
+              algorithms that are both analytically grounded and empirically effective. I am
+              especially interested in improving the data and compute efficiency of reasoning
+              systems.
+            </p>
+            <p>
+              Beyond core RL theory, I work on post-training and pretraining strategies for large
+              language models, and on recommender system objectives that improve practical
+              deployment. I have worked with Google DeepMind, Amazon, Netflix, Spotify, and Morgan
+              Stanley.
+            </p>
+          </div>
+          <div class="info-panel reveal" aria-label="Profile details">
+            <h3>At a Glance</h3>
+            <ul class="facts">
+              <li><span>Location</span><strong>Edmonton, Alberta, Canada</strong></li>
+              <li><span>Citizenship</span><strong>United States</strong></li>
+              <li><span>Advisors</span><strong>Csaba Szepesvari, Dale Schuurmans</strong></li>
+              <li><span>Primary Stack</span><strong>Python, C/C++, PyTorch, JAX</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="container">
+          <h2 class="reveal">Research Themes</h2>
+          <div class="card-grid">
+            <article class="card reveal">
+              <h3>RL Theory and Sample Efficiency</h3>
+              <p>
+                Developing principled algorithms for reinforcement learning with function
+                approximation, including loss design, exploration, and finite-sample analysis in
+                sequential decision making.
+              </p>
+            </article>
+            <article class="card reveal">
+              <h3>Reasoning in Large Language Models</h3>
+              <p>
+                Studying how RL-style objectives can improve reasoning efficiency and robustness in
+                language models, with recent work on discounted RL for reasoning and RL-based
+                pretraining alternatives to canonical next-token objectives.
+              </p>
+            </article>
+            <article class="card reveal">
+              <h3>Recommender Systems and Applied ML</h3>
+              <p>
+                Designing and validating practical methods for high-impact recommendation and
+                decision systems, including matrix factorization objectives, calibration, and
+                production-focused evaluation.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Selected Publications</h2>
+            <p>Equal-contribution papers are marked with an asterisk.</p>
+          </div>
+          <ol class="pub-list">
+            <li class="pub-item reveal">
+              <p class="pub-title">Learning to Reason Efficiently with Discounted Reinforcement Learning</p>
+              <p class="pub-meta">A. Ayoub, K. Asadi, D. Schuurmans, C. Szepesvari, K. Bouyarmane. ICLR, 2026.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Eluder Dimension: Localise It!</p>
+              <p class="pub-meta">A. Bakhtiari*, A. Ayoub*, S. Robertson, D. Janz, C. Szepesvari. NeurIPS, 2025 (Spotlight, top 3%).</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Rectifying Regression in Reinforcement Learning</p>
+              <p class="pub-meta">A. Ayoub*, D. Szepesvari*, A. Bakhtiari, C. Szepesvari, D. Schuurmans. RLC, 2025.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Does Weighting Improve Matrix Factorization for Recommender Systems?</p>
+              <p class="pub-meta">A. Ayoub, S. Robertson, D. Liang, H. Steck, N. Kallus. The Web Conference (WWW), 2025.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">
+                Almost Free: Self-Concordance in Natural Exponential Families and an Application to Bandits
+              </p>
+              <p class="pub-meta">S. Liu*, A. Ayoub*, F. Sentenac, X. Tan, C. Szepesvari. NeurIPS, 2024.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Mitigating the Curse of Horizon in Monte-Carlo Returns</p>
+              <p class="pub-meta">A. Ayoub, D. Szepesvari, F. Zanini, B. Chan, D. Gupta, B. Castro da Silva, D. Schuurmans. RLC, 2024.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Switching the Loss Reduces the Cost in Batch Reinforcement Learning</p>
+              <p class="pub-meta">A. Ayoub, K. Wang, V. Liu, S. Robertson, J. McInerney, D. Liang, N. Kallus, C. Szepesvari. ICML, 2024.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Exploration via Linearly Perturbed Loss Minimisation</p>
+              <p class="pub-meta">D. Janz*, S. Liu*, A. Ayoub*, C. Szepesvari. AISTATS, 2024 (Oral, top 1%).</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">
+                Managing Temporal Resolution in Continuous Value Estimation: A Fundamental Trade-off
+              </p>
+              <p class="pub-meta">Z. Zhang, J. Kirschner, J. Zhang, F. Zanini, A. Ayoub, D. Schuurmans. NeurIPS, 2023.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Resmax: An Alternative Soft-Greedy Operator for Reinforcement Learning</p>
+              <p class="pub-meta">E. Miahi, R. MacQueen, A. Ayoub, A. Masoumzadeh, M. White. TMLR, 2023.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">
+                Randomized Exploration for Reinforcement Learning with General Value Function Approximation
+              </p>
+              <p class="pub-meta">H. Ishfaq*, Q. Cui*, V. Nguyen*, A. Ayoub*, Z. Yang, Z. Wang, D. Precup, L. F. Yang. ICML, 2021.</p>
+            </li>
+            <li class="pub-item reveal">
+              <p class="pub-title">Model-Based Reinforcement Learning with Value-Targeted Regression</p>
+              <p class="pub-meta">A. Ayoub, Z. Jia, C. Szepesvari, M. Wang, L. Yang. ICML, 2020.</p>
+            </li>
+          </ol>
+          <div class="in-progress reveal">
+            <h3>In Preparation</h3>
+            <p>
+              Pretraining large language models with reinforcement learning to overcome limitations
+              of canonical next-token prediction.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="reveal">Professional Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <h3>Google DeepMind - Student Researcher, Frontier AI Unit</h3>
+              <p class="muted">London, UK | Aug 2025-Present</p>
+              <p>Pretraining large language models with reinforcement learning.</p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Amazon - Applied Scientist Intern, Generative AI and LLM Reasoning</h3>
+              <p class="muted">Seattle, WA | Jun 2025-Aug 2025</p>
+              <p>Post-training language models for efficient reasoning in theory and practice.</p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Netflix - Machine Learning Research Intern</h3>
+              <p class="muted">Los Gatos, CA | Jun 2024-Nov 2024</p>
+              <p>
+                Identified a major flaw in an in-production recommender component, proposed an
+                effective fix, and developed objectives that reduce data needs.
+              </p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Morgan Stanley - Machine Learning Research Intern</h3>
+              <p class="muted">New York, NY (Remote) | Feb 2024-May 2024</p>
+              <p>Research on high-frequency trading and market estimation in limit order books with RL.</p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Netflix - Machine Learning Research Intern</h3>
+              <p class="muted">Los Gatos, CA | Jun 2023-Aug 2023</p>
+              <p>Demonstrated theoretical and empirical benefits of log-loss in offline RL and recommendation.</p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Spotify - Research Scientist Intern</h3>
+              <p class="muted">New York, NY | Jun 2022-Aug 2022</p>
+              <p>
+                Built an online RL agent to calibrate Spotify homepage content and outperform offline baselines in production.
+              </p>
+            </article>
+            <article class="timeline-item reveal">
+              <h3>Huawei Noah's Ark Lab - Research Scientist Intern</h3>
+              <p class="muted">Edmonton, AB | Oct 2021-May 2023</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2 class="reveal">Education</h2>
+          <div class="edu-grid">
+            <article class="edu-card reveal">
+              <h3>University of Alberta</h3>
+              <p class="muted">PhD in Computing Science</p>
+              <p>Sep 2021-May 2026 (Expected)</p>
+              <p>Supervisors: Csaba Szepesvari and Dale Schuurmans.</p>
+            </article>
+            <article class="edu-card reveal">
+              <h3>University of Alberta</h3>
+              <p class="muted">MSc in Computing Science</p>
+              <p>Sep 2019-Sep 2021</p>
+              <p>
+                Thesis: Towards Sample Efficient Reinforcement Learning with Function Approximation.
+                Nominated for Outstanding Thesis Award.
+              </p>
+            </article>
+            <article class="edu-card reveal">
+              <h3>Florida State University</h3>
+              <p class="muted">BSc in Computational Science and Applied Mathematics</p>
+              <p>Jun 2015-May 2019</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="section">
+        <div class="container service-grid">
+          <div class="reveal">
+            <h2>Service, Awards, and Honors</h2>
+            <ul class="bullet-list">
+              <li>Inaugural recipient of the Netflix Graduate Research Fellowship.</li>
+              <li>Co-organizer, RL Theory Workshop (2023, 2024).</li>
+              <li>Workflow Chair, ICML 2022.</li>
+              <li>University of Alberta Graduate Research Assistant Fellowship.</li>
+              <li>Florida State University Research Assistant Grant.</li>
+              <li>FSU President's List (2018).</li>
+            </ul>
+          </div>
+          <div class="reveal">
+            <h3>Teaching and Mentoring</h3>
+            <p class="muted">University of Alberta | Sep 2019-Present</p>
+            <p>Teaching Assistant for Computing Science courses.</p>
+            <h3 class="subhead">Technical Skills</h3>
+            <p><strong>Programming:</strong> Python, C/C++, MATLAB</p>
+            <p><strong>Frameworks and Tools:</strong> PyTorch, JAX, CuPy, Mathematica</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container narrow reveal">
+          <h2>Contact</h2>
+          <p>
+            I am open to collaborations in reinforcement learning, reasoning systems, and
+            decision-focused machine learning.
+          </p>
+          <p>
+            Email: <a href="mailto:aayoub@ualberta.ca">aayoub@ualberta.ca</a><br />
+            GitHub: <a href="https://github.com/aa14k" target="_blank" rel="noopener">github.com/aa14k</a><br />
+            CV: <a href="./CV-16.pdf" target="_blank" rel="noopener">Download PDF</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year"></span> Alex Ayoub</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
